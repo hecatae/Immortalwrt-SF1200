@@ -23,5 +23,10 @@ echo "src-git packages2 https://github.com/coolsnowwolf/packages" >> "feeds.conf
 echo "src-git PWpackages https://github.com/xiaorouji/openwrt-passwall-packages.git;main" >> "feeds.conf.default"
 echo "src-git PWluci https://github.com/xiaorouji/openwrt-passwall.git;main" >> "feeds.conf.default"
 echo "src-git helloworld https://github.com/fw876/helloworld.git;master" >> "feeds.conf.default"
+echo "src-git packages https://github.com/openwrt/packages.git;openwrt-18.06" >> "feeds.conf.default"
+echo "src-git luci https://github.com/openwrt/luci.git;openwrt-18.06" >> "feeds.conf.default"
+echo "src-git routing https://github.com/openwrt/routing.git;openwrt-18.06" >> "feeds.conf.default"
+echo "src-git telephony https://github.com/openwrt/telephony.git;openwrt-18.06" >> "feeds.conf.default"
+
 
 ./scripts/feeds clean
